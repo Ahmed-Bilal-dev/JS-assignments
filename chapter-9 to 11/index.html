@@ -1,0 +1,88 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Calculator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .calculator {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        p {
+            margin: 10px 0;
+        }
+        .result {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="calculator">
+        <h2>Simple Calculator</h2>
+        <p>You have provided the first number as: <span id="firstNum"></span></p>
+        <p>You have provided the second number as: <span id="secondNum"></span></p>
+        <p>Enter the operator (+, -, *, /, %): operator is <span id="operator"></span></p>
+        <h3>Result:</h3>
+        <p class="result" id="calculation"></p>
+    </div>
+
+    <script>
+        // Input
+        let firstNum = parseInt(prompt("Enter the First Number"));
+        let secondNum = parseInt(prompt("Enter the Second Number"));
+        let operator = prompt("Enter the operator (+, -, *, /, %):");
+
+        // Perform calculation
+        let result;
+        if (operator === '+') {
+            result = firstNum + secondNum;
+        } else if (operator === '-') {
+            result = firstNum - secondNum;
+        } else if (operator === '*') {
+            result = firstNum * secondNum;
+        } else if (operator === '/') {
+            result = firstNum / secondNum;
+        } else if (operator === '%') {
+            result = firstNum % secondNum;
+        } else {
+            result = "Invalid Operation";
+        }
+
+        // Display input and result
+        document.getElementById("firstNum").textContent = firstNum;
+        document.getElementById("secondNum").textContent = secondNum;
+        document.getElementById("operator").textContent = operator;
+        document.getElementById("calculation").textContent = result;
+    </script> -->
+<!-- </body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="app.js"></script>
+</body>
+</html>
